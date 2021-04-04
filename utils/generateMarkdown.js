@@ -16,6 +16,7 @@ function generateMarkdown(data) {
   ## Table of Contents
   [Description](#desc)
   [Installation](#install)
+  [Questions](#quest)
 
 
   ## Title
@@ -41,6 +42,7 @@ function generateMarkdown(data) {
   ## Tests
   ${data.tests} 
   
+  <a name="quest"></a>
   ## Questions
   ${data.username}
   ${data.email}

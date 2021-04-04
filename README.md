@@ -1,7 +1,8 @@
 
   ## Table of Contents
-  [Description][#desc]
-  [Installation][#install]
+  [Description](#desc)
+  [Installation](#install)
+  [Questions](#quest)
 
 
   ## Title
@@ -9,24 +10,25 @@
 
   <a name="desc"></a>
   ## Description
-  project I made 
+  none 
 
   <a name="install"></a>
   ## Installation
   none 
 
   ## Usage
-  nothing 
+  none 
 
   ## License
-  BSD 3 
+  Apache 2.0 
 
   ## Contributing
-  nothing 
+  none 
 
   ## Tests
   none 
   
+  <a name="quest"></a>
   ## Questions
   smylebryte
   alicia.smiley417@hotmail.com
