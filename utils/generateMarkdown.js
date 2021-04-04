@@ -14,14 +14,18 @@ function renderLicenseSection(license) { }
 function generateMarkdown(data) {
   return `
   ## Table of Contents
+  [Description][#desc]
+  [Installation][#install]
 
 
   ## Title
   ${data.title} 
 
+  <a name="desc"></a>
   ## Description
   ${data.description} 
 
+  <a name="install"></a>
   ## Installation
   ${data.installation} 
 

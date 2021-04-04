@@ -29,7 +29,7 @@ const questions = [
     {
         type: 'list',
         name: 'license',
-        message: "What kind of license should your project have?"
+        message: "What kind of license should your project have?",
         choices: ["Apache 2.0", "BSD 3"]
     },
     {
@@ -62,7 +62,7 @@ function writeToFile(fileName, data) {
 // TODO: Create a function to initialize app
 function init() {
     inquirer.prompt(questions).then((responses) => {
-        console.log("Generating Readme")
+        console.log("Generating Readme...")
         writeToFile("README.md", generateMarkdown({ ...responses }))
     })
 }
